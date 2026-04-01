@@ -55,10 +55,10 @@
     transition: scale 0.3s ease-in-out;
 }
 .img-card-kitchen{
-    background-image:  url("/assets/img/product-comp-img/product-kitchen.png");
+    background-image:  url("./assets/img/product-comp-img/product-kitchen.png");
 }
 .img-card-wardrobe{
-    background-image:  url("/assets/img/product-comp-img/product-wardrobe.png");
+    background-image:  url("./assets/img/product-comp-img/product-wardrobe.png");
 }
 .view-all-btn{
     font-family: 'Poppins-ExtraLight';
