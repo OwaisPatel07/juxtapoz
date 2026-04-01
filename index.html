@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Fevicon icon img -->
+        <link rel="icon" type="image/x-icon" href="#">
+        
+        <!-- // Css Linking -->
+        <link rel="stylesheet" href="./css/rest.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/component/banner.css">
+        <link rel="stylesheet" href="./css/component/infoComponent.css">
+        <link rel="stylesheet" href="./css/component/aboutUsComponent.css">
+        <link rel="stylesheet" href="./css/component/productComponent.css">
+        <link rel="stylesheet" href="./css/slickCustom.css">
+        <link rel="stylesheet" href="./css/footer.css">
+
+        <!-- Slick style sheet -->
+        <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+
+        <!-- // Add the new slick-theme.css if you want the default styling -->
+        <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+        
+        <!-- // Fonts -->
+         <!-- Poopins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Lobster -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">     
+
+        <!-- // JS Script -->
+        <script src="./js/jquery.js"></script>
+        <script src="./js/slick.js" defer></script>
+        <script src="./js/script.js" defer></script>
+        <script src="./js/render.js" defer></script>
+
+        <!-- // Tittle -->
+        <title>Juxtapoz</title>
+
+    </head>
+
+    <body>
+        <div class="backDrop"></div>
+        <!-- Header Start -->
+        <Header class="header-cont">
+            <Nav class="nav-wrapper container">
+                <div class="logo-cont"><a href="index.html"><img src="./assets/img/logo.png" alt="Logo" class="logo-img"></a></div>
+                <div class="navbar-cont">
+                    <ul class="nav-list-wrapper">
+                        <li><a href="index.html" class="nav-lists text-hover">Home</a></li>
+                        <li><a href="aboutUs.html" class="nav-lists text-hover">About us</a></li>
+                        <li><a href="products.html" class="nav-lists text-hover">Products</a></li>
+                        <li><a href="contactUs.html" class="nav-lists text-hover">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <button type="button" class="hamburger-button">
+                        <img src="./assets/img/icon/hamburger-icon.svg" alt="hamburger icon" class="hamburger-img">
+                    </button>
+                </div>
+            </Nav>
+        </Header>
+
+        <!-- Mobile View Header Pop-up -->
+        <div class="navbar-cont-mob-wrapper">
+            <div class="navbar-cont-mob">
+                <div class="btn-cont">
+                    <button type="button" class="close-btn"><img src="./assets/img/icon/black-close-btn.svg" alt="close button" class="close-btn-img">
+                    </button>
+                </div>
+                <ul class="nav-list-wrapper">
+                    <li><a href="index.html" class="nav-lists">Home</a></li>
+                    <li><a href="aboutUs.html" class="nav-lists">About us</a></li>
+                    <li><a href="products.html" class="nav-lists">Products</a></li>
+                    <li><a href="contactUs.html" class="nav-lists">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Banner Section Start -->
+        <section> 
+            <div class="banner-wrapper banner-slick">
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide1.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide1.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide1.png" alt="banner-img1">
+                    </picture>
+                </div>
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide2.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide2.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide2.png" alt="banner-img2">
+                    </picture>
+                </div>
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide3.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide3.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide3.png" alt="banner-img3">
+                    </picture>
+                </div>
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide4.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide4.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide4.png" alt="banner-img4">
+                    </picture>
+                </div>
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide5.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide5.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide5.png" alt="banner-img5">
+                    </picture>
+                </div>
+                <div class="img-cont">
+                    <picture>
+                        <source media="(max-width:767.5px)" srcset="./assets/img/banner-img/mob/slide6.png">
+                        <source media="(max-width:1024.5px)" srcset="./assets/img/banner-img/desk/slide6.png">
+                        <img class="banner-img" src="./assets/img/banner-img/desk/slide6.png" alt="banner-img6">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Section End -->
+
+        <!-- Info Section Start -->
+        <section class="info-wrapper">
+            <div class="container info-cont">
+            <p class="info-text">Aesthetics, precision, and innovation unite with emotion and purpose, creating a seamless experience where every detail is thoughtfully crafted and every element exists in perfect harmony.</p>
+        </div>
+        </section>
+        <!-- Info Section End -->
+
+        <!-- About Us Section Start -->
+        <section class="aboutUs-wrapper">
+            <div class="container aboutUs-cont">
+                <p class="aboutUs-text">
+                    <b>Juxtapoz</b> is a premium modular interiors brand.
+                    We design high-performance kitchens, wardrobes, and bespoke furniture.
+                    Refined aesthetics. Seamless function.
+                </p>
+                <button type="button" class="learn-more-btn"><a href="aboutUs.html">More About us</a></button>
+            </div>
+        </section>
+        <!-- About Us Section End -->
+
+        <!-- Our Products Section Start -->
+        <section class="product-section-wrapper">
+            <div class="container product-cont">
+                <h2 class="tittle-text">Our Products</h2>
+                <div class="product-nav-cont">
+                    <div class="img-card img-card-kitchen" data-name="kitchen">
+                        <a href="products.html">
+                            <p class="img-card-text">kitchen</p>
+                        </a>
+                        </a>
+                    </div>
+                    <div class="img-card img-card-wardrobe" data-name="wardrobe">
+                        <a href="products.html">
+                            <p class="img-card-text">wardrobe</p>
+                        </a>
+                    </div>
+                </div>
+                <button type="button" class="view-all-btn"><a href="products.html">View all</a></button>
+            </div>
+        </section>
+        <!-- Our Products Section End -->
+        
+        <!-- Footer Section Start -->
+        <footer class="footer-wrapper">
+            <div class="footer-section-wrapper container">
+                <div class="footer-section-cont">
+                    <div class="footer-section ">
+                        <a href="index.html" class="footer-link">
+                            <img class="footer-icon" src="./assets/img/logo1.png" alt="Footer Logo">
+                        </a>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-link-heading"><a class="text-hover" href="index.html">Home</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="products.html">Our Products</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="products.html">Our Finishes</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="products.html">Laminate</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="products.html">PU</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="products.html">Glass</a></h3>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-link-heading"><a class="text-hover" href="aboutUs.html">More About Us</a></h3>
+                        <h3 class="footer-link-heading"><a class="text-hover" href="contactUs.html">Contact Us</a></h3>
+                        <div class="footer-link-heading">
+                            <h3 class="footer-text-email">Email</h3>
+                            <p class="">siddiqui.saad@juxtapoz.com</p>
+                        </div>
+                        <div class="footer-link-heading">
+                            <h3 class="footer-text-contact">Lets Talk</h3>
+                            <p class="footer-text-contact">+91 84549 84454</p>
+                            <p class="footer-text-contact">+91 91677 34131</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyRigth-cont">© 2026 <b>Juxtapoz</b>. All rights reserved.</div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+    </body>
+    <!--  Slick Script Start -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+    <!--  Slick Script End -->
+</html>

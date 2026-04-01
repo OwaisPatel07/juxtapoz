@@ -1,0 +1,103 @@
+.product-section-wrapper{
+    background-color: var(--font-black);
+}
+/* .product-section-wrapper::before{
+    content: " ";
+    display: block;
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: var(--font-black);
+
+} */
+.product-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+}
+.tittle-text{
+    font-family: "Poppins-Bold";
+    font-size: 50px;
+    color: var(--brown);
+    padding: 15px;
+}
+.product-nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-card-text{
+    font-family: "Poppins-SemiBold";
+    font-size: 40px;
+    padding: 25px;
+    backdrop-filter: contrast(0.4);
+    color: var(--font-black);
+    text-transform: uppercase;
+    scale: 1;
+    transition: scale 0.3s ease-in-out;
+}
+.img-card-text:hover{
+    scale: 1.2;
+    transition: scale 0.3s ease-in-out;
+}
+.img-card-kitchen{
+    background-image:  url("/assets/img/product-comp-img/product-kitchen.png");
+}
+.img-card-wardrobe{
+    background-image:  url("/assets/img/product-comp-img/product-wardrobe.png");
+}
+.view-all-btn{
+    font-family: 'Poppins-ExtraLight';
+    font-size: 30px;
+    color: var(--brown);
+    background: transparent;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid var(--brown);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.view-all-btn:hover{
+    background-color: var(--brown);
+    color: var(--font-black);
+    transition: all 0.5s ease;
+}
+
+
+@media screen and (max-width:1024.5px) {
+    .view-all-btn{
+        font-size: 20px;
+    }   
+
+}
+@media screen and (max-width:767.5px) {
+    .product-cont{
+        gap: 15px;
+    }
+    .product-nav-cont{
+        flex-direction: column;
+    }
+    .tittle-text{
+        font-size: 25px;
+    }
+    .img-card-text{
+        font-size: 26px;
+    }
+    .view-all-btn{
+        padding: 10px;
+    }   
+}

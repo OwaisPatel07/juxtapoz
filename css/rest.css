@@ -1,0 +1,252 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul[class], ol[class] {
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: none;
+}
+
+/* change colours to suit your needs */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+input {
+  border: 1px solid black;
+  outline: 0;
+}
+
+input:focus {
+  border: 1px solid black;
+  outline: 0;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* Font face Start */
+
+    @font-face {
+        font-family: "Poppins-Black";
+        src: url("../fonts/Poppins/poppins-black-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-black-webfont.woff") format("woff");
+        font-weight: 900;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "Poppins-ExtraBold";
+        src: url("../fonts/Poppins/poppins-extrabold-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-extrabold-webfont.woff") format("woff");
+        font-weight: 800;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-Bold";
+        src: url("../fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-SemiBold";
+        src: url("../fonts/Poppins/poppins-semibold-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-semibold-webfont.woff") format("woff");
+        font-weight: 600;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-Medium";
+        src: url("../fonts/Poppins/poppins-medium-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-medium-webfont.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-Regular";
+        src: url("../fonts/Poppins/poppins-regular-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-regular-webfont.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-Light";
+        src: url("../fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-light-webfont.woff") format("woff");
+        font-weight: 300;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-ExtraLight";
+        src: url("../fonts/Poppins/poppins-extralight-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-extralight-webfont.woff") format("woff");
+        font-weight: 200;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins-Thin";
+        src: url("../fonts/Poppins/poppins-thin-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-thin-webfont.woff") format("woff");
+        font-weight: 100;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Lobster-Regular";
+        src: url("../fonts/Lobster/lobster-regular-webfont.woff2") format("woff2"),
+        url("../fonts/Lobster/lobster-regular-webfont.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    /* Font face Ends */

@@ -1,0 +1,220 @@
+/* Custom SlickStyles Start */
+
+/* ========== Arrow Styles ========== */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0;
+    line-height: 0;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background: var(--green);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.slick-prev:focus,
+.slick-next:focus {
+    outline: none;
+}
+
+.slick-prev {
+    left: 25px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+/* Arrow Icons using CSS */
+.slick-prev::before,
+.slick-next::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid var(--white);
+    border-right: 3px solid var(--white);
+    position: absolute;
+    top: 50%;
+    transition: border-color 0.3s ease;
+}
+
+.slick-prev::before {
+    transform: translateY(-50%) rotate(-135deg);
+    left: 20px;
+}
+
+.slick-next::before {
+    transform: translateY(-50%) rotate(45deg);
+    right: 20px;
+}
+
+.slick-prev:hover::before,
+.slick-next:hover::before {
+    border-color: var(--white);
+}
+
+/* ========== Pagination Dots Styles ========== */
+.slick-dots {
+    height: 26px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 20px;
+    margin: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.slick-dots li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: 2px solid var(--brown);
+    border-radius: 50%;
+    background: var(--brown);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0;
+    line-height: 0;
+}
+
+.slick-dots li button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+}
+
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button::before {
+    display: none;
+}
+
+.slick-dots li.slick-active button {
+    width: 32px;
+    border-radius: 20px;
+    background: var(--green);
+    border-color: var(--green);
+}
+
+/* ========== Responsive Styles ========== */
+@media screen and (max-width: 1024px) {
+    .slick-prev,
+    .slick-next {
+        width: 45px;
+        height: 45px;
+    }
+
+    .slick-prev {
+        left: 15px;
+    }
+
+    .slick-next {
+        right: 15px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        width: 10px;
+        height: 10px;
+        border-width: 2px;
+    }
+
+    .slick-prev::before {
+        left: 19px;
+    }
+
+    .slick-next::before {
+        right: 19px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .slick-prev,
+    .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .slick-prev::before {
+        left: 13px;
+    }
+
+    .slick-next::before {
+        right: 13px;
+    }
+
+    .slick-dots {
+        bottom: 15px;
+        gap: 8px;
+        padding: 0px 10px;
+    }
+
+    .slick-dots li button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 26px;
+    }
+}
+
+/* Custom SlickStyles Ends */
+
+
+/* Banner Slick Slider CSS Starts */
+
+.banner-slick {
+    position: relative;
+}
+
+.banner-slick .slick-list .slick-track{
+    display: flex;
+}
+
+/* Banner Slick Slider CSS Ends */

@@ -1,0 +1,23 @@
+
+:root {
+    /* --brown: #C5BCB5; */
+    --brown: #C5BCB5;
+    --green: #305348;
+    --black: #000000;
+    --white: #FFFFFF;
+    --font-black: #312E2D;
+}
+.container{
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+
+@media screen and (max-width: 1024.5px) {
+    .container {
+        max-width: 960px;
+    }
+    
+}
