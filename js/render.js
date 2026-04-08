@@ -35,55 +35,27 @@ $(document).ready(function(){
 
 // Banner Slick Slider Initialization End
 
-// Product Tabs Functionality Start
-var productTabs = document.querySelectorAll('.productTabs');
-
-productTabs.forEach(function(tab) {
-    tab.addEventListener('click', function() {
-        productTabs.forEach(function(tab) {
-            tab.classList.remove('active');
-        });
-        this.classList.add('active');
-    });
-});
-
-
-// Product Tabs Functionality End
 
 // Product Content Slick Slider Initialization Start
 
-// Kitchen Content Slick Slider
-$(document).ready(function(){
-    $('.kitchen-content-slick').slick({
-        dots: true,
-        arrows: true,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        pauseOnHover: true,
-        fade: true,
-        cssEase: 'linear'
-    });
-});
+var slickConfig = {
+    dots: true,
+    arrows: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    fade: true,
+    cssEase: 'linear'
+};
 
-// Wardrobe Content Slick Slider
+// Only initialize slick on the active (visible) tab on page load
 $(document).ready(function(){
-    $('.wardrobe-content-slick').slick({
-        dots: true,
-        arrows: true,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        pauseOnHover: true,
-        fade: true,
-        cssEase: 'linear'
-    });
+    $('.product-content.active .kitchen-content-slick').slick(slickConfig);
+    $('.product-content.active .wardrobe-content-slick').slick(slickConfig);
 });
 
 // Product Content Slick Slider Initialization End

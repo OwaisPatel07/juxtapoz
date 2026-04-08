@@ -37,7 +37,7 @@
         <!-- // JS Script -->
         <script src="./js/jquery.js"></script>
         <script src="./js/slick.js" defer></script>
-        <script src="./js/script.js" defer></script>
+        <script src="./js/productScript.js" defer></script>
         <script src="./js/render.js" defer></script>
 
         <!-- // Tittle -->
@@ -92,15 +92,15 @@
 
                 <!-- Product Tabs Container -->
                 <div class="product-tab-cont">
-                    <button type="button" class="productTabs active" data-tabName="kitchen">Kitchen</button>
-                    <button type="button" class="productTabs" data-tabName="wardrobe">Wardrobe</button>
+                    <button type="button" class="productTabs active" data-tabname="kitchen">Kitchen</button>
+                    <button type="button" class="productTabs" data-tabname="wardrobe">Wardrobe</button>
                 </div>
 
                 <!-- Product Content Container -->
                 <div class="product-content-cont">
                     
                     <!-- Kitchen Content start -->
-                    <div class="product-kitchen-content product-content">
+                    <div class="product-kitchen-content product-content active" data-contentName="kitchen">
                         <div class="kitchen-content-wrapper kitchen-content-slick">
                             <div class="img-cont">
                                 <picture>
@@ -149,7 +149,7 @@
                     <!-- Kitchen Content end -->
 
                     <!-- Wardrobe Content start -->
-                    <div class="product-wardrobe-content product-content">
+                    <div class="product-wardrobe-content product-content" data-contentName="wardrobe">
                         <div class="wardrobe-content-wrapper wardrobe-content-slick">
                             <div class="img-cont">
                                 <picture>
