@@ -242,9 +242,9 @@ body {
         font-style: normal;
     }
     @font-face {
-        font-family: "Lobster-Regular";
-        src: url("../fonts/Lobster/lobster-regular-webfont.woff2") format("woff2"),
-        url("../fonts/Lobster/lobster-regular-webfont.woff") format("woff");
+        font-family: "Libre-Caslon-Display-Regular";
+        src: url("../fonts/Libre_Caslon_Display/librecaslondisplay-regular-webfont.woff2") format("woff2"),
+        url("../fonts/Libre_Caslon_Display/librecaslondisplay-regular-webfont.woff") format("woff");
         font-weight: 400;
         font-style: normal;
     }
